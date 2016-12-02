@@ -1,12 +1,17 @@
 {
   "name": "simply-fast",
   "version": "1.0.0",
-  "description": "A progressive and performant web application seed for more static and simplistic applications.",
-  "main": "index.js",
+  "description": "A progressive and performant web application seed for simplistic or barebones projects.",
+  "main": "src/bundle.js",
   "dependencies": {
     "webpack": "^1.13.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2"
+  },
   "scripts": {
     "test": "npm test"
   },
