@@ -15,6 +15,12 @@ module.exports = {
     } , { 
       test: /\.css$/,
       loader: "style!css" 
+    } , {
+      test: /\.(jpe?g|png|gif|svg)$/i,
+      loaders: [
+        'file?hash=sha512&digest=hex&name=[hash].[ext]',
+        'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+      ]
     }]
   },
   plugins: [
@@ -32,7 +38,8 @@ module.exports = {
       // ./public directory is being served 
       host: 'localhost',
       port: 3000,
-      server: { baseDir: ['src'] }
+      server: { baseDir: 'src', index: 'index.html' },
+      files: './src/*.html'
     })
   ]
  };
