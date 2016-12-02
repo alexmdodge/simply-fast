@@ -1,10 +1,10 @@
 <img src="http://i.imgur.com/XGVvZxZ.png" width="800px">
 
-A simple and performant web app seed which incorporates a number of technologies with barebones styling and plugins. The goal of this setup is to include as little bloat as possible while still accommodating a modern build process.
+A simple and performant web app seed which incorporates a number of technologies with bare bones styling and plugins. The goal of this setup is to include as little bloat as possible while still accommodating a modern build process.
 
 # INTRODUCTION
-This project inclues,
-* Webpack - well documented and created to incoroporate only what you need
+This project includes,
+* Webpack - well documented and created to incorporate only what you need
 * Sass - a simple custom grid is provided with minimal styling
 * ES Next - write modern javascript
 
@@ -26,3 +26,14 @@ that you don't have to worry about `sudo`! It also has a lot of other quick tips
 [Karma](https://karma-runner.github.io/1.0/index.html) is the test runner  | `npm install -g karma-cli`
 [Sass](http://sass-lang.com/install) for our style sheets | `gem install sass`
 [Webpack](https://webpack.js.org/) for everything else | `npm install -g webpack`
+
+# Building and Testing
+To run a build with a Browsersync session run,
+
+`npm start`
+
+To run the karma tests,
+
+`npm test`
+
+(still have to be completed)
