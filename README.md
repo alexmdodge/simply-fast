@@ -15,12 +15,14 @@ If you would like to contribute to the project or poke around the source, then y
 in the right place!
 
 First, like nearly all projects we'll perform an npm install. You'll need to have node
-installed first which you can learn about [here](https://nodejs.org/en/download/package-manager/)!
+installed first which you can learn about **[here](https://nodejs.org/en/download/package-manager/)**!
 
 `npm install`
 
-Some of the command line cli's you'll need are below. Note that if you're on Ubuntu or another Linux
-distribution you might need `sudo` in front of your commands. On a mac, follow this tutorial to ensure
-that you don't have to worry about `sudo`!
+Some of the command line integrations you'll need are below. Note that if you're on Ubuntu or another Linux
+distribution you might need `sudo` in front of your commands. On a mac, follow **[this](https://github.com/jonathanong/osx-webdev-setup)** tutorial to ensure
+that you don't have to worry about `sudo`! It also has a lot of other quick tips for setting up for web development.
 
-`npm install -g karma-cli`
+[Karma](https://karma-runner.github.io/1.0/index.html) is the test runner  | `npm install -g karma-cli`
+[Sass](http://sass-lang.com/install) for our style sheets | `gem install sass`
+[Webpack](https://webpack.js.org/) for everything else | `npm install -g webpack`
