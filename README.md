@@ -1,11 +1,12 @@
 <img src="http://i.imgur.com/XGVvZxZ.png" width="800px">
 
-A simple and performant web app seed which incorporates a number of technologies with bare bones styling and plugins. The goal of this setup is to include as little bloat as possible while still accommodating a modern build process.
+A simple and performant web app seed which incorporates a number of technologies with bare bones styling and plugins. The goal of this setup is to include as little bloat as possible while still accommodating a modern build process. The goal is to target learners in a way that allows them to explore more difficult technologies while still working with a static layout.
 
 # INTRODUCTION
 This project includes,
 * Webpack - well documented and created to incorporate only what you need
 * Sass - a simple custom grid is provided with minimal styling
+* Karma - for testing with the Jasmine framework
 * ES Next - write modern javascript
 
 As more pieces are added and changed they will be updated here!
@@ -30,7 +31,7 @@ that you don't have to worry about `sudo`! It also has a lot of other quick tips
 # Building and Testing
 To run a build with a Browsersync session run,
 
-`npm start`
+`npm start` and go to `http://localhost:3000/`
 
 To run the karma tests,
 
