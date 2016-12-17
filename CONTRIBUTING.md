@@ -7,15 +7,15 @@ If your issue appears to be a bug, and it hasn't been reported, open a new issue
 By reducing the number of duplicate issues my attention can go to features. 
 Providing the following information will increase the chances of your issue being dealt with quickly:
 
-**Overview of the Issue** - If an error is being thrown, a non-minified stack trace helps.
-**Motivation or Use Case** - Explain why this is a bug for you.
-**Library Name and Version(s)** - Please indicate if it is a regression bug.
-**Browsers and Operating System** - Is this a problem with all browsers or only IE?
-**Reproduce the Error** - If possible, provide a live example (using Plunker or JSFiddle). 
-Minimally, please provide an unambiguous set of steps to reproduce the issue.
-**Related Issues** - Has a similar issue been reported before?
+**Overview of the Issue** - If an error is being thrown, a non-minified stack trace helps. <br>
+**Motivation or Use Case** - Explain why this is a bug for you. <br>
+**Library Name and Version(s)** - Please indicate if it is a regression bug. <br>
+**Browsers and Operating System** - Is this a problem with all browsers or only IE? <br>
+**Reproduce the Error** - If possible, provide a live example (using Plunker or JSFiddle).  <br>
+Minimally, please provide an unambiguous set of steps to reproduce the issue. <br>
+**Related Issues** - Has a similar issue been reported before? <br>
 **Suggest a Fix** - If you can't fix the bug yourself, perhaps you can point to what might be 
-causing the problem (line of code or commit).
+causing the problem (line of code or commit). <br>
 
 ### Submitting a Pull Request
 
