@@ -1,14 +1,12 @@
-/*
- * Simple Sass Layout
+/** 
+ * Simple Styles Layout
  *
  * This project contains a very simple grid system with some core typography.
- * Some of the common styles you might use (which you can simply look form
- * and edit in the included files are,
- * 
- * 
- *
+ * Some of the common styles you might use (which you can easily view and
+ * edit are included in the styles below.
  */
 
+ // fonts
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
 
 // variables
@@ -19,103 +17,3 @@
 
 // grid
 @import './includes/grid';
-
-// main styles
-.pypd-logo {
-  margin: 20px 0px;
-  z-index: 1;
-  position: relative;
-}
-.pypd-container {
-  margin-top: 12vh;
-  height: 100vh;
-}
-
-.pypd-title-container {
-
-  .pypd-title {
-    z-index: 2;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-
-    h1 {
-      padding: 0;
-      margin: 0;
-      color: $primary-yellow;
-      font-weight: $font-weight-heavy;
-      text-transform: uppercase;
-    }
-
-    .pypd-title-put, 
-    .pypd-title-your, 
-    .pypd-title-phone, 
-    .pypd-title-down {
-      margin: -40px 0px;
-      padding: 0;
-      box-sizing: border-box;
-    } 
-    // base rem is 2.5
-    .pypd-title-put { 
-      font-size: 8rem;
-      margin: -70px 0px;
-      }
-    .pypd-title-your { 
-      font-size: 5.3rem;
-    }
-    .pypd-title-phone {
-      font-size: 4.5rem;
-      color: #fff;
-    }
-    .pypd-title-down { 
-      font-size: 4.7rem;
-      color: #fff;
-      left: 258px;
-    }
-  }
-}
-
-.pypd-description {
-  color: #fff;
-  padding: 5px 15px;
-}
-
-// navbar
-.navbar {
-  ul {
-    list-style: none;
-    position: absolute;
-    margin-right: 20px;
-    right: 0;
-    top: 0;
-    li { 
-      display: inline-block;
-      margin: 0px 10px;
-    }
-  }
-
-  .navbar-link {
-    border-radius: 5px;
-    background-color: rgba(252, 232, 150,0.4);
-    padding: 13px;
-    font-weight: $font-weight-heavy;
-    text-transform: uppercase;
-  }
-}
-
-// badges
-.pypd-download {
-  display: block;
-  margin: 10px auto;
-  width: 461px;
-
-  .pypd-google-play {
-    width: 200px;
-  }
-
-  .pypd-apple-store {
-    width: 175px;
-    padding: 12.5px;
-  }
-}

@@ -1,30 +1,14 @@
 {
   "name": "simply-fast",
-  "version": "1.0.0",
-  "description": "A progressive and performant web application seed for simplistic or barebones projects.",
-  "main": "src/bundle.js",
-  "dependencies": {
-    "webpack": "^1.13.3"
-  },
+  "version": "2.0.0",
+  "description": "A progressive and performant static site tool for simplistic or bare-bones projects.",
+  "dependencies": {},
   "devDependencies": {
-    "babel-core": "^6.18.2",
-    "babel-loader": "^6.2.8",
-    "babel-preset-es2015": "^6.18.0",
-    "browser-sync": "^2.18.2",
-    "browser-sync-webpack-plugin": "^1.1.3",
-    "concurrently": "^3.1.0",
-    "css-loader": "^0.26.0",
-    "file-loader": "^0.9.0",
-    "image-webpack-loader": "^3.0.0",
-    "jasmine-core": "^2.5.2",
-    "karma": "^1.3.0",
-    "karma-chrome-launcher": "^2.0.0",
-    "karma-jasmine": "^1.0.2",
-    "style-loader": "^0.13.1",
-    "webpack-dev-server": "^1.16.2"
+    "http-server": "0.10.0",
+    "postcss-loader": "2.0.9",
+    "webpack": "3.10.0"
   },
   "scripts": {
-    "test": "karma",
     "build": "webpack --progress --colors",
     "start": "concurrently \"webpack --progress --colors --watch\" \"sass --watch src/styles:src/styles\""
   },
@@ -32,13 +16,6 @@
     "type": "git",
     "url": "git+https://github.com/alexmdodge/simply-fast.git"
   },
-  "keywords": [
-    "es2015",
-    "sass",
-    "webpack",
-    "modules",
-    "performance"
-  ],
   "author": "Alex Dodge",
   "license": "MIT",
   "bugs": {
