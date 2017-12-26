@@ -27,4 +27,4 @@ node_modules
 
 .sass-cache
 
-dist
+public/assets

@@ -1,16 +1,19 @@
 {
   "name": "simply-fast",
   "version": "2.0.0",
-  "description": "A progressive and performant static site tool for simplistic or bare-bones projects.",
+  "description": "A progressive and performant static site seed for simplistic or bare-bones projects.",
   "dependencies": {},
   "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "1.6.1",
     "http-server": "0.10.0",
     "postcss-loader": "2.0.9",
     "webpack": "3.10.0"
   },
   "scripts": {
     "build": "webpack --progress --colors",
-    "start": "concurrently \"webpack --progress --colors --watch\" \"sass --watch src/styles:src/styles\""
+    "start": "webpack --progress --colors --watch"
   },
   "repository": {
     "type": "git",
