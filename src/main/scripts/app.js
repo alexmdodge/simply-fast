@@ -9,8 +9,4 @@
  * included in the vendor.js file.
  */
 
-import DOMHelper from 'utils/DOMHelper.js'
-
-const app = DOMHelper.get('#app');
-const title = DOMHelper.get('.title');
-const unknown = DOMHelper.get('another');
+import DOMHelper from './utils/DOMHelper.js'

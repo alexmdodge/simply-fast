@@ -7,13 +7,15 @@
     "babel-core": "6.26.0",
     "babel-loader": "7.1.2",
     "babel-preset-env": "1.6.1",
+    "concurrently": "3.5.1",
     "http-server": "0.10.0",
     "postcss-loader": "2.0.9",
     "webpack": "3.10.0"
   },
   "scripts": {
-    "build": "webpack --progress --colors",
-    "start": "webpack --progress --colors --watch"
+    "build": "webpack --progress --colors --watch",
+    "serve": "http-server -p 9000 -s -o -c-1 ./public",
+    "start": "concurrently --names \"HTTP,WEBPACK\" -c \"bgMagenta.bold,bgBlue.bold\" \"npm run serve\" \"npm run build\""
   },
   "repository": {
     "type": "git",

@@ -1,13 +1,14 @@
 const path = require('path');
+const config = require('./project.config.js');
 
 module.exports = {
   entry: {
-    app: "./src/scripts/app.js",
-    vendor: "./src/scripts/vendor.js",
+    app: config.paths.app,
+    vendor: config.paths.vendor,
   },
 
   output: {
-    path: path.resolve(__dirname, "public/assets"),
+    path: config.paths.output,
     filename: "[name].js",
   },
 
@@ -15,11 +16,11 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        exclude: /node_modules/,
+        exclude: /(node_modules)/,
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env']
+            presets: 'babel-preset-env'
           }
         }
       }
@@ -27,7 +28,6 @@ module.exports = {
   },
 
   resolve: {
-
     modules: [
       "node_modules",
       path.resolve(__dirname, "src")
