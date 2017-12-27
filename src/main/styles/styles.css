@@ -4,16 +4,20 @@
  * This project contains a very simple grid system with some core typography.
  * Some of the common styles you might use (which you can easily view and
  * edit are included in the styles below.
+ *
+ * Note that these styles follow the cssnext specification! You can read
+ * up on all the features here, http://cssnext.io/features/
  */
 
- // fonts
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
-// variables
-@import './includes/variables';
+/* variables */
+@import '../styles/includes/variables.css';
 
-// global
-@import './includes/global';
+/* global */
+@import '../styles/includes/global.css';
 
-// grid
-@import './includes/grid';
+/* grid */
+@import '../styles/includes/grid.css';

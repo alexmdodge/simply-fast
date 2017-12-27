@@ -9,4 +9,7 @@
  * included in the vendor.js file.
  */
 
-import DOMHelper from './utils/DOMHelper.js'
+/* Style imports */
+import '../styles/styles.css';
+
+import DOMHelper from './utils/DOMHelper.js';
