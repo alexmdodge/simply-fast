@@ -1,0 +1,20 @@
+:root {
+  /* fonts */
+  --header-font: 'Lato', Helvetica, sans-serif;
+  --body-font: 'Open Sans', Helvetica, sans-serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-heavy: 700;
+  --font-height: 1.5;
+
+  /* colors */
+  --primary-green: #52C196;
+  --primary-red: #F87882;
+  --primary-yellow: #FCE896;
+  --primary-blue: #72a5fe;
+  --primary-font-color: #333447;
+
+  /* grid */
+  --grid-width: 96%;
+  --grid-gutter: 4%;
+}
