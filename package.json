@@ -6,12 +6,14 @@
   "devDependencies": {
     "autoprefixer": "7.2.3",
     "babel-core": "6.26.0",
+    "babel-jest": "22.0.4",
     "babel-loader": "7.1.2",
     "babel-preset-env": "1.6.1",
     "concurrently": "3.5.1",
     "css-loader": "0.28.7",
     "extract-text-webpack-plugin": "3.0.2",
     "http-server": "0.10.0",
+    "jest": "22.0.4",
     "postcss-cssnext": "3.0.2",
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-import": "11.0.0",
@@ -23,6 +25,7 @@
   "scripts": {
     "build": "webpack --progress --colors --watch",
     "serve": "http-server -p 9000 -s -c-1 ",
+    "test": "jest",
     "start": "concurrently \"npm run serve\" \"npm run build\""
   },
   "repository": {

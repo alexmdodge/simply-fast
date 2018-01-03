@@ -24,4 +24,12 @@ export default class DOMHelper {
       return attemptedClass || attemptedId;
     }
   }
+
+  /**
+   * This is a sample method as a stepping off point for testing using
+   * Jest. Accepts a name and returns all letters capitalized.
+   */
+  static funOperation(lowerCaseName) {
+    return lowerCaseName.toUpperCase();
+  }
 }
