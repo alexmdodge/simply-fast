@@ -7,6 +7,10 @@ const path = require('path');
  * 
  * You can extend this however you would like, so long as the
  * appropriate changes are made in the webpack.config.js file.
+ * 
+ * Here each of the paths are used in some part of the build
+ * process. You can change these paths as the project structure
+ * changes.
  */
 const config = {
   paths: {
