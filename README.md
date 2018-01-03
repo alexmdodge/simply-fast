@@ -25,7 +25,7 @@ This will give you all of the plugins
 # Building and Testing
 All of the commands are pretty straight forward in the project. You can view them in the `package.json` file.
 
-`npm start` will build anything in the `/src/main` folder using the `app.js` file as the [Webpack entry point](https://webpack.js.org/concepts/entry-points/).
-`npm test` will run any Jest tests you've created and named as `something.test.js`.
-`npm build` will do a one time build of the project instead of watching the files.
-`npm serve` will simply serve the files in the `public` folder.
+* `npm start` will build anything in the `/src/main` folder using the `app.js` file as the [Webpack entry point](https://webpack.js.org/concepts/entry-points/).
+* `npm test` will run any Jest tests you've created and named as `something.test.js`.
+* `npm build` will do a one time build of the project instead of watching the files.
+* `npm serve` will simply serve the files in the `public` folder.
