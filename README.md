@@ -20,7 +20,7 @@ installed first which you can learn about **[here](https://nodejs.org/en/downloa
 
 `npm install`
 
-This will give you all of the plugins
+This will give you all of the project tooling and build dependencies.
 
 # Building and Testing
 All of the commands are pretty straight forward in the project. You can view them in the `package.json` file.
