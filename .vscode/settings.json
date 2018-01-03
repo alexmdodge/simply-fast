@@ -1,0 +1,11 @@
+{
+    "editor.tabSize": 2,
+    "editor.renderIndentGuides": true,
+    "editor.detectIndentation": false,
+    "editor.renderWhitespace": "none",
+    "css.lint.unknownProperties": "ignore",
+    "files.associations": {
+      "*.css": "postcss"
+    },
+    "postcss.validate": false
+  }

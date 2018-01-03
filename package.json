@@ -1,26 +1,37 @@
 {
   "name": "simply-fast",
-  "version": "1.0.0",
-  "description": "A progressive and performant web application seed for more static and simplistic applications.",
-  "main": "index.js",
-  "dependencies": {
-    "webpack": "^1.13.3"
+  "version": "2.1.0",
+  "description": "A progressive and performant static site seed for simplistic or bare-bones projects.",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "7.2.3",
+    "babel-core": "6.26.0",
+    "babel-jest": "22.0.4",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "1.6.1",
+    "concurrently": "3.5.1",
+    "css-loader": "0.28.7",
+    "extract-text-webpack-plugin": "3.0.2",
+    "http-server": "0.10.0",
+    "jest": "22.0.4",
+    "postcss-cssnext": "3.0.2",
+    "postcss-flexbugs-fixes": "3.2.0",
+    "postcss-import": "11.0.0",
+    "postcss-loader": "2.0.9",
+    "postcss-url": "7.3.0",
+    "style-loader": "0.19.1",
+    "webpack": "3.10.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "npm test"
+    "build": "webpack --progress --colors --watch",
+    "serve": "http-server -p 9000 -s -c-1 ",
+    "test": "jest",
+    "start": "concurrently \"npm run serve\" \"npm run build\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexmdodge/simply-fast.git"
   },
-  "keywords": [
-    "es2015",
-    "sass",
-    "webpack",
-    "modules",
-    "performance"
-  ],
   "author": "Alex Dodge",
   "license": "MIT",
   "bugs": {
